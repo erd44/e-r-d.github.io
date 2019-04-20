@@ -1,0 +1,258 @@
+/* css styling */
+/*menu bar development, image arrangement, and hover effect
+ inspired by www.w3schools.com and prof. Kyle Harms examples-->*/
+html{
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+/*h1{
+  font-size: 120px;
+  padding-top: 50px;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+
+  width: 100%;
+}-->*/
+
+h2{
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+/*menu bar development inspired by www.w3schools.com and prof. Kyle Harms EX.-->*/
+#menu {
+  padding: 10px;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#menu li {
+  display: inline;
+  padding: 10px;
+  margin: 5px;
+}
+
+li a {
+  text-decoration: none;
+  background-color: inherit;
+  color: black;
+}
+/*(end) menu bar development inspired by www.w3schools.com and prof. Kyle Harms EX.*/
+
+/*I discovered the display: inline-block function used here on www.w3schools.com */
+.homeimg {
+  padding: 10px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+}
+
+/*I discovered the display: inline-block function used here on www.w3schools.com */
+/*.pimg {
+  padding: 5px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+}*/
+
+.pimg2 {
+  padding: 5px;
+  width: 675px;
+  display: inline-block;
+  text-align: center;
+}
+
+/*hover over effect inspired by https://www.w3schools.com/howto/howto_css_image_overlay.asp , which I was reffered to by a TA*/
+.imgcontainer{
+  position:relative;
+  width: 40%;
+  display:inline-block;
+  text-align: center;
+}
+
+.imgcontainer1{
+  position:relative;
+  width: 60%;
+  display:inline-block;
+  text-align: center;
+}
+
+.imgcontainer2{
+  position: relative;
+  width: auto;
+  display:inline-block;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition:.5s ease;
+  color: inherit;
+  background-color: #fc1d1d;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition:.5s ease;
+  color: inherit;
+  background-color: #000000;
+}
+
+.imgcontainer:hover .overlay {
+  opacity: 0.93;
+}
+
+.imgcontainer1:hover .overlay {
+  opacity: 0.93;
+}
+
+.imgcontainer2:hover .overlay2 {
+  opacity: 0.75;
+}
+
+.text {
+  color: white;
+  background-color: inherit;
+  font-size: 25px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text2 {
+  color: white;
+  background-color: inherit;
+  font-size: 35px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  display: inline;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+/* (end) hover over effect inspired by https://www.w3schools.com/howto/howto_css_image_overlay.asp , which I was reffered to by a TA*/
+
+.italics {
+  font-style: italic;
+}
+
+#email {
+  background-color: inherit;
+  color: white;
+}
+
+.logo {
+  width: 100%;
+  z-index: 0;
+}
+
+
+
+#couple {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 30%;
+}
+
+#rv {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  width: 25%;
+}
+
+#brandnewroman {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  width: 40%;
+}
+
+#teenageriot {
+  position: absolute;
+  left: 25%;
+  top: 55%;
+  width: 30%
+}
+
+#passportedited {
+  position: absolute;
+  left: 50%;
+  top: 135%;
+  width: 10%;
+
+}
+
+#vhs {
+  position: absolute;
+  left: 30%;
+  top: 90%;
+  width: 28%;
+}
+
+#alifeglobe {
+  position: absolute;
+  left: 55%;
+  top: 85%;
+  width: 30%;
+}
+
+#tt {
+  position: fixed;
+  left: 8%;
+  top: -15%;
+  font-size: 125px;
+  font-family: serif;
+  font-style: italic;
+  text-align: left;
+
+
+}
+
+#tt2 {
+  position: fixed;
+  left: 13%;
+  top: -2%;
+  font-size: 125px;
+  font-family: serif;
+  font-style: italic;
+  text-align: left;
+}
+
+#mcnike {
+  position: absolute;
+  left: 58%;
+  top: 95%;
+  width: 30%;
+}
